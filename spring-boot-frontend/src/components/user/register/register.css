@@ -1,0 +1,98 @@
+.register-container{
+    background-image: url('https://english.news.cn/20211015/C99FC984946000014EAC3FE01BB0CDA0/20211015C99FC984946000014EAC3FE01BB0CDA0_1310299700_1636416459677.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -5%;
+     
+}
+
+.card-main1{
+    position: absolute;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.school-name-for-loginpage {
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;;
+    top: 0%;
+     
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    letter-spacing: 5px;
+    background-size: 400%;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animation 10s linear infinite;
+  }
+  
+  @keyframes animation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+
+.card-main1 input{
+    width: 60%;
+   margin-left: 20%;
+  
+}
+
+.login-main{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo-image{
+    position: relative;
+    width: 6rem;
+    height: 20%;
+     
+     
+}
+
+.card-main1 .card-body{
+    margin-top: 3%;
+}
+
+ 
+ 
+.card-main1 button{
+    position: relative;
+ 
+
+}
+
+
+@media (max-width: 567px) {
+    /* CSS rules for smaller screens */
+ 
+
+    .card-main1{
+         top: 15%;
+         height: 50%;
+         margin-left: 3%;
+        
+
+    }
+
+     .school-name-for-loginpage{
+        font-size: 1.5rem;
+     }
+}
