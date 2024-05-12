@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import StudentService from '../services/user/Userservice';
+import StudentService from '../../services/user/Userservice';
+import './teachertimetable.css'
 
 const TeacherTimetable = (props) => {
   const { grade } = props;
@@ -29,7 +30,7 @@ const TeacherTimetable = (props) => {
   }, [grade]);
 
   return (
-    <div>
+    <div className='timetable bg-light '>
       <h2>Teacher Timetable</h2>
       <table className="table border-secoundary">
         <thead className="table-dark">

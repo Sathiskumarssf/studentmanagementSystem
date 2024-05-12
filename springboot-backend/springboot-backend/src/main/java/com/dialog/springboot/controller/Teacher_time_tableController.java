@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.dialog.springboot.repository.Teacher_timetableRepository.*;
 
-//@CrossOrigin(origins = {"http://localhost:3000/"})
 @CrossOrigin("*")
 @RestController
 @RequestMapping("api/v1/teacher_timetable")

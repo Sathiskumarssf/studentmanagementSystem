@@ -2,6 +2,7 @@ package com.dialog.springboot;
 
 import com.dialog.springboot.model.Employee;
 import com.dialog.springboot.repository.EmployeeRepository;
+import com.dialog.springboot.repository.EventsRepository;
 import com.dialog.springboot.repository.StudentRepository;
 import com.dialog.springboot.repository.Teacher_timetableRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,8 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 
 	@Autowired
 	private Teacher_timetableRepository teacherTimetableRepository;
+	@Autowired
+	private EventsRepository eventsRepository;
 
 	@Override
 	public void run(String... args) throws Exception {

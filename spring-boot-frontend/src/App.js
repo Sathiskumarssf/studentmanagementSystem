@@ -15,7 +15,7 @@ import StudentHome from './components/user/home/Home';
 
 function App() {
   return (
-    <div className='main-conatiner'>
+    <div className='main-conatiner bg-light'>
       <Router>
          
 

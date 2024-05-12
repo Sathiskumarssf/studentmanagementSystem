@@ -7,5 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class ResourceNotFoundException extends RuntimeException{
       public ResourceNotFoundException(String massage){
           super(massage);
+          System.out.println(massage);
+
       }
 }

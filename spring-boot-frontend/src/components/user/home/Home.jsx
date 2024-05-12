@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../../parts/navbar/Navbar'
-import TeacherTimetable from '../../../parts/TeacherTimetable'
+import TeacherTimetable from '../../../parts/teachertimetable/TeacherTimetable'
+import Event from '../../user/events/Events'
 import { FaUser } from 'react-icons/fa';
 import {   useLocation,useNavigate } from 'react-router-dom';
 
@@ -42,6 +43,8 @@ const Home = () => {
       </div>
 
       <TeacherTimetable grade={stdgrede}  />
+      <Event/>
+
     </div>
   )
 }

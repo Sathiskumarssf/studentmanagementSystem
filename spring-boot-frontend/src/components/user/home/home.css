@@ -1,16 +1,17 @@
 .home-main{
     
-  width: 100vw;
+  width: auto;
   height: 100vh;
-  margin-left: -5%;
+ 
   text-align: center;
    
 }
 
 .prifile-icon{
   position: absolute;
-  left: 5rem;
+  right: 3rem;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
 
@@ -59,7 +60,10 @@
   }
 
   .prifile-icon{
-     right: 0%;
+     Right: 0%;
+     width: 4rem;
+     border-radius: 1rem;
+     height: auto;
   }
 
 }
