@@ -34,8 +34,9 @@ public class Studentcontroller {
     String getStudentByemailAndGrade(@RequestParam String studentemail,@RequestParam String studentGrade)  {
         Student student = studentRepository.findBystudentemailAndStudentGrade(studentemail,studentGrade);
 
+        System.out.println(student.getUserRole());
         if(student !=null){
-            return  "User found";
+            return  student.getUserRole();
         }else{
             return  "the not userfound";
         }

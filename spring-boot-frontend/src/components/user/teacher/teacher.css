@@ -1,0 +1,72 @@
+.home-main{
+    
+    width: auto;
+    height: 100vh;
+    width: 100%;
+   
+    text-align: center;
+     
+  }
+  
+  .prifile-icon{
+    position: absolute;
+    right: 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  
+  
+  .school-name {
+    font-size: 3rem;
+    position: relative;
+    top: 2rem;;
+    top: 5%;
+     
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    letter-spacing: 5px;
+    background-size: 400%;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animation 10s linear infinite;
+  }
+  
+  @keyframes animation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  
+  .school-description{
+    margin-top: 3rem;
+    width: 70%;
+    margin-left: 15%;
+    color: rgb(10, 10, 17);
+  }
+  
+  @media (max-width: 567px) {
+    .school-description{
+        font-size: 1rem;
+    }
+    .school-name{
+        font-size: 2rem;
+        top: 3rem;
+    }
+  
+    .prifile-icon{
+       Right: 0%;
+       width: 4rem;
+       border-radius: 1rem;
+       height: auto;
+    }
+  
+  }
+  
+  

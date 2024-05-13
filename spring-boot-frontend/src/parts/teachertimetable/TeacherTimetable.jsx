@@ -31,7 +31,7 @@ const TeacherTimetable = (props) => {
 
   return (
     <div className='timetable bg-light '>
-      <h2>Teacher Timetable</h2>
+      <h2>Your time Timetable</h2>
       <table className="table border-secoundary">
         <thead className="table-dark">
           <tr>

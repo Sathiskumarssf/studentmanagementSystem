@@ -87,7 +87,7 @@ const Register = () => {
                                     
                                     <input
                                         type = "email"
-                                        placeholder = "Enter Your Grade"
+                                        placeholder = "Enter Your Password"
                                         name = "emailId"
                                         className = "form-control"
                                         value = {studentGrade}

@@ -23,4 +23,9 @@ public class Student {
 
     @Column(name = "studentEmail")
     private  String studentemail;
+
+    @Column(name = "userRole")
+    private  String userRole;
+
+
 }

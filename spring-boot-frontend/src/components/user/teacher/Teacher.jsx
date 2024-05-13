@@ -8,9 +8,9 @@ import {   useLocation,useNavigate } from 'react-router-dom';
 import Footercomponents from '../../employee/footercomponent';
 
  
-import './home.css'
+import './teacher.css'
 
-const Home = () => {
+const Teacher = () => {
 
   const location = useLocation();
   const stdemail = new URLSearchParams(location.search).get('sdtemail');
@@ -52,4 +52,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Teacher

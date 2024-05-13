@@ -20,10 +20,14 @@ const Register = () => {
           .then((response) => {
             console.log(response );
           
-              if(response ==="User found"){
-
-                  navigate(`/studenthome?sdtgrade=${studentGrade}&sdtemail=${studentEmail}`); 
-              }else{
+              if(response ==="Princiapal"){
+                  navigate(`/add-employee?sdtgrade=${studentGrade}&sdtemail=${studentEmail}`); 
+              }else if(response ==="Teacher"){
+                navigate(`/teacherHome?sdtgrade=${studentGrade}&sdtemail=${studentEmail}`); 
+              }else if(response =! null){
+                navigate(`/studenthome?sdtgrade=${studentGrade}&sdtemail=${studentEmail}`); 
+              }
+              else{
                 alert("something error");
               }
           })
@@ -63,7 +67,7 @@ const Register = () => {
                                     
                                     <input
                                         type = "email"
-                                        placeholder = "Enter Your Grade"
+                                        placeholder = "Enter Your Password"
                                         name = "emailId"
                                         className = "form-control"
                                         value = {studentGrade}
